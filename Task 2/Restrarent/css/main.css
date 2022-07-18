@@ -1,0 +1,31 @@
+.container
+{
+    width: 80%;
+    margin: auto;
+    outline: solid 2px;
+    padding: 2px;
+}
+.containar
+{
+    width: 90%;
+    margin: auto;
+    outline: solid 2px;
+    padding: 2px;
+
+}
+body
+{
+    background-color: rgb(172, 217, 255);
+}
+.centered
+{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+h1
+{
+font-size:45px;
+
+}
