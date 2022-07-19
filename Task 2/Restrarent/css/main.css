@@ -1,31 +1,192 @@
 .container
 {
-    width: 80%;
+    width: 1150px;
     margin: auto;
     outline: solid 2px;
     padding: 2px;
-}
-.containar
+} 
+.quick-menu
 {
-    width: 90%;
-    margin: auto;
-    outline: solid 2px;
-    padding: 2px;
-
+    display: flex;
+    justify-content: space-between;
 }
+
 body
 {
     background-color: rgb(172, 217, 255);
 }
-.centered
+.spilt
 {
-    position: absolute;
-    top: 15%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    
 }
-h1
+.flex-banner
 {
-font-size:45px;
+    width: 100%;
+    height: 600px;
+    outline: solid 2px tomato;
+}
+.banner-description,
+.banner-image {
+    width: 50%;
+    height: 400px;
+    outline: solid 2px tomato;
+}
+
+.reason
+
+{
+    display: flex;
+}
+.box1, 
+.box2,
+.box3
+{
+    width: 33.33%;
+    height: 290px;
+    outline: solid 2px tomato;
+}
+.dishes 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dishes .item
+{
+    width: 550px;
+    height: 100px;
+    outline: solid 2px tomato;
+}
+
+
+.special-dish
+{
+    display: flex;
+}
+.box-1
+{
+    width: 250px;
+    height: 215px;
+    outline: solid 2px tomato;
 
 }
+
+.box-2
+{
+    width: 900px;
+    height: 215px;
+    outline: solid 2px tomato;
+
+}
+.spilt-2
+{
+    display: flex;
+}
+.image2,
+.text
+{
+    width: 550px;
+    height: 375px;
+    outline: solid 2px tomato;
+
+}  
+.spilt-3
+{ display: flex; 
+flex-wrap: wrap;
+}
+.spilt-3 .box1
+
+{
+    width: 375px;
+    height: 40px;
+    outline: solid 2px tomato;
+}
+.spilt-9
+{
+    display: flex; 
+} 
+.box0,
+.box01,
+.box02
+{
+    width: 33.33%;
+    height: 220px;
+    outline: solid 2px tomato;
+
+}
+.spilt-4
+{ display: flex; 
+  flex-wrap: wrap;
+}
+.spilt-4 .box2
+{
+    width: 285px;
+    height: 250px;
+    outline: solid 2px tomato;
+}
+
+.spilt-5
+{
+    display: flex; 
+} 
+.box3
+{
+    width: 33.33%;
+    height: 300px;
+    outline: solid 2px tomato;
+}
+.flex-contact
+{
+    width: 100%;
+    height: 350px;
+    outline: solid 2px tomato;
+}
+.spilt-6
+{
+    display: flex; 
+} 
+.content,
+.text1,
+.text2
+{
+    width: 33.33%;
+    height: 50px;
+    outline: solid 2px tomato;
+
+}
+.spilt-7
+{
+    display: flex; 
+} 
+.content2,
+.text3
+{
+    width: 50%;
+    height: 50px;
+    outline: solid 2px tomato;
+
+}
+.spilt-8
+{
+    display: flex; 
+} 
+.box51,
+.box52,
+.box53,
+.box54
+
+{
+    width: 25%;
+    height: 215px;
+    outline: solid 2px tomato;
+
+}
+.flex-legal
+{
+    width: 100%;
+    height: 100px;
+    outline: solid 2px tomato;
+}
+
+
+
