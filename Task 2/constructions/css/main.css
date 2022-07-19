@@ -1,8 +1,179 @@
 .container
-    { width: 80%;
+    { width: 1110px;
     margin: auto;
-    outline:  solid 2px;
-    padding: 10px;
-    
+    outline:  solid 2px tan;
+}
+.flex-box
+{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    outline:  solid 2px tan;
+}
+.flex-quote
+{
+    display: flex;
+}
+
+.paragraph
+{
+    width: 660px;
+    height: 300px;
+    outline: solid 2px rgb(26, 226, 176);
+}
+.form
+{
+    width: 420px;
+    height: 500px;
+    outline: solid 2px rgb(24, 79, 180);
+}
+.flex-process
+{
+    display: flex;
+    flex-wrap: wrap;
+    }
+.flex-image1,
+.flex-image2,
+.flex-image3,
+.flex-image4
+{
+    width: 215px;
+    height: 300px;
+    outline: solid 2px tomato;
 
 }
+.flex-text1,
+.flex-text2,
+.flex-text3,
+.flex-text4
+{
+    width: 330px;
+    height: 300px;
+    outline: solid 2px tomato;
+
+}
+.flex-services
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-para1,
+.flex-para2,
+.flex-para3,
+.flex-para4,
+.flex-para5,
+.flex-para6
+{
+    width: 360px;
+    height: 375px;
+    outline: solid 2px tomato;
+}
+.flex-safety
+{
+    display: flex;   
+}
+.flex-imge,
+.flex-paragrap2
+{
+    width: 50%;
+    height: 650px;
+    outline: solid 2px tomato;
+}
+.flex-paragrap2
+{
+    display: flex; 
+}
+.section1,
+.section2,
+.section3,
+.section4,
+.section5
+{
+    width: 125px;
+    height: 400px;
+    outline: solid 2px tomato;   
+}
+.flex-workmode
+{
+    display: flex;   
+}
+
+.flex-paragra,
+.flex-imgae
+{
+    width: 50%;
+    height: 400px;
+    outline: solid 2px tomato;
+}
+.flex-project
+{
+    display: flex;
+    flex-wrap: wrap;
+    }
+.flex-project1,
+.flex-project2,
+.flex-project3,
+.flex-project4,
+.flex-project5,
+.flex-project6,
+.flex-project7,
+.flex-project8,
+.flex-project9
+
+{
+    width: 350px;
+    height: 250px;
+    outline: solid 2px tomato;
+
+}
+.flex-review
+{
+    display: flex;
+}
+.flex-author1,
+.flex-author2
+
+{
+    width: 450px;
+    height: 250px;
+    outline: solid 2px tomato;
+}
+.flex-recentblog
+{
+    display: flex;
+}
+.flex-blog1,
+.flex-blog2,
+.flex-blog3
+{
+    width: 475px;
+    height: 350px;
+    outline: solid 2px tomato;
+}
+.flex-bot
+{
+    width: 100%;
+    height: 500px;
+    outline:  solid 2px rgb(9, 223, 62);
+}
+.flex-footer
+{
+    display: flex;
+}
+.flex-content1
+{
+    width: 350px;
+    height: 280px;
+    outline: solid 2px tomato;
+}
+.flex-content2,
+.flex-content3,
+.flex-content4,
+.flex-content5
+
+{
+    width: 175px;
+    height: 280px;
+    outline: solid 2px tomato;
+}
+
