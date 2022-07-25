@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--defines the title of the document. The title must be text-only, 
+        and it is shown in the browser's title bar or in the page's tab.-->
+        
+    <title>tags</title>
+    <!--style-->
+    <style>
+        h1 {color:rgb(134, 194, 243);}
+        table, th, td {
+        border: 1px solid black;
+    }
+     </style>
+</head>
+<body>
+    <h1>The pre element</h1>
+    <!-- pre defined width and breaks didn't customised-->
+    <pre> font width and size are predefined</pre>
+
+    <!-- it's indicate how much work is completed-->
+    <h1>The progress element</h1>
+    <label for="file">copying...</label>
+    <progress id="file" value="50" max="100"> 55% </progress>
+
+    <!--use to insert quote-->
+    <h1>The q element</h1>
+    <p><q>pencil and crayans</q> and crayans mostley used for drawing purpose</p>
+
+    <!--Specify ruby annotation -->
+    <!-- rt explain char-->
+    <!--rt-->
+    <h1>The rp element</h1>
+    <ruby>
+    N <rp>(</rp><rt>hii</rt><rp>)</rp>
+    </ruby>
+    <!-- should not be used to define deleted text  it's indicate no longer available -->
+    <h1>The s element</h1>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+    <!--define sample output from web-->
+    <h1>The samp element</h1>
+    <p>website says</p>
+    <p><samp>File not found.<br>go to home.</samp></p>
+    <!--insert clint side script-->
+    <h1>The script element</h1>
+    <p id="demo"></p>
+    <script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script> 
+    <!--define section-->
+    <h1>section element</h1>
+    <section>
+        <p>The World Wide Fund for Nature (WWF) is an international<br>
+         organization working on issues regarding the conservation, <br>
+        research and restoration of the environment, formerly named the World Wildlife Fund</p>
+    </section>
+    <!--small text-->
+    <h1>The small element</h1>
+    <p>normal font size</p>
+    <p><small> smaller text</small></p>
+    <!--attach img mp3 mp4-->
+    <h1>The source element</h1>
+    <p>Click to play</p>
+    <audio controls>
+    <source src="songs/Vaazhkai-Enbathu-MassTamilan.com.mp3" type="audio/mp3">
+    </audio>
+    <!--inline container used to mark up a part of a text like joker-->
+    <h1>The span element</h1>
+    <p>My mother has <span style="color:blue">blue</span> eyes.
+    </p>
+        <!--strike not support alternative del-->
+        <!--its important-->
+        <h1>The strong element</h1>
+        <p><strong>pencil</strong> must use for drawing</p>
+        <!--sub and superscript-->
+        <h1>The sub and sup elements</h1>
+    <p>drawing <sub>pencil</sub> </p>
+    <p>writiog <sup>pen</sup> </p>
+    <!--like drop down list-->
+    <h1>The summary element</h1>
+    <details>
+    <summary>pencil</summary>
+    <p>must used for drawing</p>
+    </details>
+    <!--defines a container for SVG graphics.
+    SVG has several methods for drawing paths, boxes, circles, text, and graphic images.-->
+    <h1>The svg element</h1>
+    <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="tomato" />
+    Sorry, your browser does not support inline SVG.
+    </svg>
+    <!--for create table row coloumn table head and footer-->
+    <h1>The table element</h1>
+    <table>
+     <thead>
+    <tbody>
+     <tr>
+        <th>pencil</th>
+        <th>for drawing</th>
+    </tr>
+    </tbody>
+     </thead>
+        <tr>
+        <td>pen</td>
+        <td>for writing</td>
+    </tr>
+    <tfoot>
+    <tr>
+        <td>crayans</td>
+        <td>for sketch</td>
+    </tr>
+    </tfoot>
+    </table>
+    <!--hold some content that will be hidden when the page loads-->
+    <h1>The template Element</h1>
+    <button onclick="showContent()">Show hidden content</button>
+    <template>
+        <h2>laptop</h2>
+        <img src="image/Background.jpg" width="214" height="204">
+      </template>
+      <script>
+        function showContent()
+         {
+          var temp = document.getElementsByTagName("template")[0];
+          var clon = temp.content.cloneNode(true);
+          document.body.appendChild(clon);
+        }
+        </script><br>
+        <label for="feedback">feedback</label><br>
+        <textarea id="none" name="feedback" rows="4" cols="50"></textarea>   
+        <!-- to convert machine readable time-->     
+        <h1>The time element</h1>
+        <p>school open from <time>9:00</time> to <time>17:00 
+        <time datetime="2008-02-14 20:00"></time> every weekday.</p>
+        <!--underline the word-->
+        <h1><u>underline</u></h1>
+        <h1>The ul element</h1>
+        <ul>
+        <li>pen</li>
+        <li>pencil</li>
+        <li>crayans</li>
+        </ul>
+        <!--defines a variable in programming or in a mathematical expression.
+             The content inside is typically displayed in italic.-->
+             <h1>The var element</h1>
+        <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, 
+        and <var>h</var> is the vertical height.</p>
+        <!--used to embed video content in a document-->
+        <h1>The video element</h1>
+    <video width="320" height="240" controls>
+    <source src="video/minnale.mp4" type="video/mp4"> 
+    </video>
+    <!--break words if its long-->
+    <h1>The wbr element</h1>
+    <p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery <wbr>
+        longwordthatwillbreakatspecific <wbr>placeswhenthebrowserwindowisresized.</p>
+    </body>
+</html>
