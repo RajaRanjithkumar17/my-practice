@@ -1,0 +1,35 @@
+h1{
+    color: aquamarine;
+}
+.blog-post{
+    color: tomato;
+}
+#main-title{
+    color: blue;
+}
+[disabled]{
+    color: brown;
+}
+.list>ul{
+    color: aqua;
+}
+.list{
+    color: blueviolet;}
+.anchor{
+color: chartreuse;
+ }
+.anchor:hover{
+        color: rgb(11, 224, 214);
+}
+.anchor:active{
+    color: rgb(66, 20, 231);
+ }
+.anchor:visited{
+ color: rgb(238, 20, 173);
+    }
+.seudo-elements::before{
+content: "R";
+}
+.seudo-elements::after{
+    content: "Kumar";
+}
