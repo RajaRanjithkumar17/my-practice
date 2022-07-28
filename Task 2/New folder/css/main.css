@@ -1,0 +1,106 @@
+.container{
+width: 80%;
+margin: auto;
+}
+.contact-card{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.email, .mobile, .social-connect{
+    width: 100%;
+   
+    
+}
+.background{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+}
+.slide-1{
+    width: 100%;
+    height: 500px;
+}
+.flex-container{
+    display: flex;
+    padding-top: 30px;
+}
+.video
+.text{
+    width: 50%;
+    height: 100px;
+   
+}
+.flex-img{
+    width: 100%;
+    
+}
+.text {
+    text-align: center;
+}
+.para{
+    text-align: left;
+    padding-left: 10px;
+}
+.logo, .logo2
+{
+    display: flex;
+    
+}
+.icon1, .icon2
+{
+    width: 20%;
+    
+}
+.text1, .text2
+{
+    width: 80%;
+    
+}
+.flex-facility
+{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.facility1{
+    width: 33.33%;
+    padding: 10px 20px;
+    border: solid 1px  rgb(182, 146, 146);
+    border-top: 0px;
+
+}
+.flex-facility:nth-child(1)
+{
+    border-left: 2px;
+}
+.flex-facility:nth-child(3)
+{
+    border-right:5px;
+}
+.progress{
+    background-color: azure;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.performance{
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.happy-client,
+.project,
+.flex-hours,
+.hard-worker
+{
+    width: 25%;
+    text-align: center;
+    background-color: azure;
+    box-shadow: 0 0 10px;
+    padding-bottom: 10px;
+  
+ 
+}

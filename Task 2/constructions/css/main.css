@@ -9,30 +9,73 @@
     height: 600px;
     margin: auto;
     outline:  solid 2px tan;
+   
 }
+.allign-center{
+    text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+}
+
 .flex-quote
 {
     display: flex;
+    
 }
 .h1{font-size: 44px;}
 
-.paragraph
-{
-    width: 660px;
-    height: 300px;
-    outline: solid 2px rgb(26, 226, 176);
-}
+
 .form
 {
-    width: 420px;
+    padding-left: 50px;
+    width: 40%;
     height: 500px;
-    outline: solid 2px rgb(24, 79, 180);
+    
+    font-size: 18px;
 }
 .flex-process
 {
     display: flex;
     flex-wrap: wrap;
     }
+    .h1-allign{
+     
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;   
+    }
+.allign-center
+{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    
+}
+.quote-align
+{font-size: 26px;
+    padding-top: 50px;
+
+}
+.quote-p{
+    
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+.construction-allign
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.paragraph-allign{
+    text-align: center;
+}
+.flex-text1
+{text-align: center;
+padding-left: 20px;
+padding-top: 20px;}
+
 .flex-image1,
 .flex-image2,
 .flex-image3,
@@ -178,3 +221,11 @@
     outline: solid 2px tomato;
 }
 
+.con-img{
+    width: 100%;
+    height: 300px;
+}
+.ban-img{
+    width: 100%;
+    height: auto;
+}
