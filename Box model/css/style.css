@@ -1,0 +1,26 @@
+.h1,h4
+{
+    width: 200px;
+  box-shadow: 0px 0px 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+   border-bottom: 2px solid red;
+   margin-bottom: 10px ;
+  
+ 
+  }
+  .padding{
+    width: 200px;
+    box-shadow: 0px 10px 10px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: auto 2px tomato;
+   
+ 
+  }
+  .p{
+    width: 150px;
+    box-shadow: 0px 5px 10px;
+    padding: 50px;
+  
+  }

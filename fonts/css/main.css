@@ -1,0 +1,48 @@
+.ffamily{
+    font-family: 'Courier New', Courier, monospace;
+}
+.font-size{
+    font-size: 40px;    
+    font-variant: small-caps;
+}
+.font-weight{
+font-weight: 400;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: hotpink;
+    border: 2px solid black;
+
+}
+.color{
+   
+    color: blue;
+    opacity: inherit;
+    
+}
+.text{
+    hanging-punctuation: first;
+    letter-spacing: 5px;
+
+}
+.allign{
+    text-align: center;
+}
+.decorat{
+    text-decoration:overline aqua;
+}
+.text-indent {
+    text-indent: 50px;
+}
+.shadow {
+    text-shadow: 2px 2px #ff0000;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+  .word-spacing {
+    word-spacing: 5px;
+  }
+  .p{
+    word-wrap: break-word;
+  }
